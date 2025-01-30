@@ -1,7 +1,7 @@
 import { useState } from "react";
-import TransactionList from "./components/TransactionList";
-import NewTxnForm from "./components/NewTxnForm";
-import IncExpContainer from "./components/IncExpContainer";
+import TransactionList from "./components/TransactionList.jsx";
+import NewTxnForm from "./components/NewTxnForm.jsx";
+import IncExpContainer from "./components/IncExpContainer.jsx";
 const App=()=>{
   const [transactions, setTransactions] = useState([
     { title: "Salary", amount: 5000 },
